@@ -1,0 +1,26 @@
+@import "theme";
+
+$primaryTextColor: rgb(0, 0, 0);
+$secondaryTextColor: rgb(255, 230, 0);
+
+h1 {
+    color: $primaryTextColor;
+    text-align: center;
+    margin: 1rem; 
+}
+
+h2 {
+    color: green;
+}
+
+.main {
+    background-color: aqua;
+    // p {
+    //     color: $primaryTextColor;}
+        div {
+            background-color: rgb(245, 241, 8);
+            p {
+            color: blue;}
+        }
+    }
+
