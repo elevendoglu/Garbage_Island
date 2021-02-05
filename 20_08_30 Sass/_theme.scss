@@ -1,0 +1,16 @@
+@mixin myValues {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin: 24px;    
+}
+
+
+.main {
+    /*display: inline-block;
+    border: 1cm, solid, black;*/
+    background-color: rgb(233, 30, 233);
+}
+
+p {
+    @include myValues;
+}
